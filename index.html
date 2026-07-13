@@ -3,140 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubble n Craps - Official Support & Legal Information</title>
+    <title>Bubble n Craps - Support & Legal Portal</title>
     <style>
         :root {
-            --bg-dark: #0f111a;
-            --card-bg: #1a1d2e;
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
-            --accent-pink: #ff2a74;
-            --accent-blue: #00d2ff;
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --text-dim: #8b949e;
+            --primary-accent: #ff2a74;
+            --secondary-accent: #05b3ff;
+            --border-color: #30363d;
         }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
             line-height: 1.6;
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
         }
+
         header {
             text-align: center;
-            margin-bottom: 50px;
-            border-bottom: 2px solid var(--card-bg);
-            padding-bottom: 30px;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 40px;
         }
+
         h1 {
-            font-size: 2.5rem;
-            margin: 0;
-            background: linear-gradient(45deg, var(--accent-pink), var(--accent-blue));
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(45deg, var(--primary-accent), var(--secondary-accent));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-transform: uppercase;
-            letter-spacing: 1px;
         }
+
         .subtitle {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-            margin-top: 10px;
+            color: var(--text-dim);
+            font-size: 1.2rem;
+            font-weight: 400;
         }
+
         .card {
             background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
             border-radius: 12px;
             padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            margin-bottom: 35px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         }
+
         h2 {
-            color: var(--accent-blue);
+            color: var(--secondary-accent);
+            font-size: 1.5rem;
             margin-top: 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid var(--border-color);
             padding-bottom: 10px;
         }
+
+        p, li {
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #fff;
+        }
+
         .email-btn {
             display: inline-block;
-            background: linear-gradient(135deg, var(--accent-pink), #e01b5d);
-            color: white;
+            background: var(--primary-accent);
+            color: #fff;
             text-decoration: none;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: bold;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 600;
             margin-top: 15px;
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: transform 0.2s, opacity 0.2s;
         }
+
         .email-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(255, 42, 116, 0.4);
+            opacity: 0.9;
         }
-        .legal-text {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            max-height: 300px;
-            overflow-y: auto;
-            background-color: rgba(0,0,0,0.2);
-            padding: 15px;
-            border-radius: 6px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
+
+        .alert-text {
+            color: #ff7b72;
+            font-weight: 600;
         }
+
         footer {
             text-align: center;
-            margin-top: 60px;
-            color: var(--text-muted);
-            font-size: 0.85rem;
+            padding: 40px 0 20px 0;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+
     <header>
         <h1>Bubble n Craps</h1>
-        <div class="subtitle">Advanced Strategy Simulator & Utility</div>
+        <div class="subtitle">Advanced Strategy Simulator &amp; Utility</div>
     </header>
 
     <!-- Support Section -->
     <div class="card">
-        <h2>Customer Support & Feedback</h2>
-        <p>Need help with your playbook configurations, bankroll calculations, or have feedback on the simulator tools? Our support desk is completely offline-focused and monitored directly by the developer.</p>
-     <p>Drop us a line directly at any time at <strong>bubblencraps@gmail.com</strong>, or click below:</p>
-<a href="mailto:bubblencraps@gmail.com" class="email-btn">Contact Support</a>
+        <h2>Customer Support &amp; Feedback</h2>
+        <p>Have questions regarding your playbook configurations, simulation tools, or general application updates? Our support deck is standing by to assist with technical troubleshooting and app inquiries.</p>
+        <p>Drop us a line directly at any time at <strong>bubblencraps@gmail.com</strong>, or click below:</p>
+        <a href="mailto:bubblencraps@gmail.com" class="email-btn">Contact Support</a>
+    </div>
+
+    <!-- Liability Disclaimer Section -->
+    <div class="card">
+        <h2>Strict Limitation of Liability &amp; Gambling Disclaimer</h2>
+        <p class="alert-text">PLEASE READ THIS SECTION CAREFULLY BEFORE USING THE APPLICATION.</p>
+        <p><strong>1. For Entertainment and Educational Purposes Only:</strong> Bubble n Craps is strictly a mathematical strategy simulation and table layout utility intended for entertainment and educational use. This application does not facilitate, provide, accept, or encourage real-money gambling or wagering transactions of any kind.</p>
+        <p><strong>2. No Guarantee of Financial Outcomes:</strong> Craps is an inherently random game of chance driven by probability. Any mathematical formulas, simulated playbooks, historical charts, or layouts generated by this application are purely theoretical and do not guarantee financial success, real-world winnings, or risk mitigation at physical or online casino venues.</p>
+        <p><strong>3. Absolute Assumption of Risk:</strong> You explicitly acknowledge and agree that any subsequent decision to engage in real-money gambling activities is done entirely at your own financial and personal risk. Under no circumstances shall the application developers or distributors be held liable for any financial losses, capital damages, or personal distress resulting directly or indirectly from the use of this software.</p>
+        <p><strong>4. "AS IS" Warranty Clause:</strong> This software is provided completely "As Is" without warranties of any kind, either express or implied. In no event shall our total collective liability to you for all damages, losses, and causes of action exceed the exact amount paid by you (if any) to purchase the application.</p>
     </div>
 
     <!-- Privacy Policy Section -->
     <div class="card">
         <h2>Privacy Policy</h2>
-        <div class="legal-text">
-            <p><strong>Effective Date: July 12, 2026</strong></p>
-            <p>DR Industries operates the Bubble n Craps application as a fully offline utility game and bankroll calculator. This page is used to inform website visitors and app store users regarding our policies with the collection, use, and disclosure of Personal Information.</p>
-            <p><strong>1. Data Collection and Tracking:</strong> Bubble n Craps is built as a 100% client-side, local application architecture. We do not operate any external cloud databases, user tracking systems, or background logging tools. Zero personal data, device identifiers, locations, or strategy inputs are ever collected, stored, or transmitted over the internet by DR Industries.</p>
-            <p><strong>2. Local Storage Safeguards:</strong> Any trial indicators, local strategy preferences, or settings configurations are written directly onto your physical device storage using local encrypted wrappers. Wiping the application data from your mobile operating system settings permanently removes this data entirely.</p>
-            <p><strong>3. Third-Party Services:</strong> Our application does not integrate with external third-party analytics trackers, advertisement networks, or data brokers. Your calculations remain completely isolated to your handheld device.</p>
-            <p><strong>4. Changes to This Policy:</strong> We may update our Privacy Policy from time to time to align with app store updates. Any changes will be published transparently directly onto this webpage.</p>
-        </div>
+        <p><strong>Effective Date:</strong> July 12, 2026</p>
+        <p>This privacy policy governs your use of the mobile application Bubble n Craps. We are committed to maintaining straightforward, absolute transparency regarding user data.</p>
+        
+        <h3>1. Data Collection and Usage</h3>
+        <p>Bubble n Craps is built from the ground up to operate completely offline. 
+        <ul>
+            <li><strong>No Personal Information:</strong> We do not collect, capture, transmission, or store any personal data, identifiers, or account information.</li>
+            <li><strong>No Tracking:</strong> The application does not deploy background tracking cookies, location-based services, or user-profiling infrastructure.</li>
+            <li><strong>Local Storage Only:</strong> Any strategy playbooks, configuration preferences, or local save states you build are stored exclusively on your own physical device and are never transmitted to external servers.</li>
+        </ul>
+        
+        <h3>2. Third-Party Services</h3>
+        <p>Because the core application operates natively and offline, we do not share data with, nor utilize the tracking infrastructures of, third-party advertising networks or external analytics frameworks.</p>
+
+        <h3>3. Policy Updates</h3>
+        <p>We reserve the right to modify this privacy statement at any time. Any changes will be updated directly on this public page. Continued use of the application constitutes acceptance of the current terms.</p>
     </div>
 
     <!-- Terms of Service Section -->
     <div class="card">
-        <h2>Terms of Service & Disclaimer</h2>
-        <div class="legal-text">
-            <p><strong>Last Updated: July 12, 2026</strong></p>
-            <p>By downloading or interacting with the Bubble n Craps application, you agree to comply with and be strictly bound by the following terms established by DR Industries.</p>
-            <p><strong>1. Educational and Entertainment Nature:</strong> Bubble n Craps is strictly an educational tool, bankroll multiplier calculator, and mathematical strategy simulator. It is intended for entertainment purposes only and is built exclusively to demonstrate mathematical ratios and chip layout dynamics.</p>
-            <p><strong>2. Absolute Liability Shield:</strong> Casino gaming involves pure independent random chance and a persistent inherent house edge. DR Industries makes no claims, expressions, or legal guarantees regarding long-term individual profitability or specific physical machine performance. DR Industries assumes zero legal or financial responsibility for any actual real-world currency losses or damages incurred by users inside physical or digital gaming venues.</p>
-            <p><strong>3. Store Compliance & Environment:</strong> This application is not a gambling aid, does not interface with physical gaming hardware, and does not facilitate financial wagers or deposits. Users must strictly adhere to the laws, ordinances, and age guidelines governed by their local jurisdictions.</p>
-        </div>
+        <h2>Terms of Service</h2>
+        <p><strong>Effective Date:</strong> July 12, 2026</p>
+        <p>By downloading, installing, or interacting with Bubble n Craps, you agree to be bound unconditionally by the following operational terms:</p>
+        
+        <h3>1. End User License</h3>
+        <p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the Bubble n Craps software strictly for personal, non-commercial entertainment purposes on compatible mobile devices owned or controlled by you.</p>
+
+        <h3>2. Restrictions on Use</h3>
+        <p>You agree that you will not: reverse engineer, decompile, or disassemble the application binaries; attempt to bypass built-in processing systems; or utilize the software simulation modules to develop unauthorized commercial systems or automated algorithmic platforms.</p>
+
+        <h3>3. Termination</h3>
+        <p>This license is effective until terminated by either party. Your rights under this license will terminate automatically or otherwise cease to be effective without notice if you fail to comply with any provision of these terms.</p>
     </div>
 
     <footer>
-        &copy; © 2026 Bubble n Craps. All rights reserved. An independent software publication.
+        &copy; 2026 Bubble n Craps. All rights reserved. An independent software publication.
     </footer>
+
 </div>
 
 </body>
