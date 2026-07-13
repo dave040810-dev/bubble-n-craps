@@ -3,119 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bubble n Craps - Support & Legal Portal</title>
+    <title>Bubble n Craps — Advanced Strategy Simulator</title>
     <style>
-        :root {
-            --bg-color: #0d1117;
-            --card-bg: #161b22;
-            --text-color: #c9d1d9;
-            --text-dim: #8b949e;
-            --primary-accent: #ff2a74;
-            --secondary-accent: #05b3ff;
-            --border-color: #30363d;
-        }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
             line-height: 1.6;
+            color: #e0e6ed;
+            background-color: #0b132b;
             margin: 0;
             padding: 0;
         }
-
         .container {
             max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            margin: 40px auto;
+            padding: 20px;
         }
-
         header {
             text-align: center;
-            padding: 40px 0;
-            border-bottom: 1px solid var(--border-color);
+            border-bottom: 1px solid #1c2541;
+            padding-bottom: 30px;
             margin-bottom: 40px;
         }
-
         h1 {
-            font-size: 3rem;
-            font-weight: 800;
+            color: #ffffff;
+            font-size: 2.5rem;
             margin: 0 0 10px 0;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            background: linear-gradient(45deg, var(--primary-accent), var(--secondary-accent));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
-
         .subtitle {
-            color: var(--text-dim);
+            color: #48cae4;
             font-size: 1.2rem;
-            font-weight: 400;
+            font-weight: 300;
         }
-
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 35px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-        }
-
         h2 {
-            color: var(--secondary-accent);
+            color: #ffffff;
             font-size: 1.5rem;
-            margin-top: 0;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
+            border-left: 4px solid #48cae4;
+            padding-left: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
         }
-
-        p, li {
-            color: var(--text-color);
-            font-size: 1rem;
+        h3 {
+            color: #00b4d8;
+            font-size: 1.1rem;
+            margin-top: 20px;
         }
-
+        p {
+            margin: 0 0 15px 0;
+            color: #cbd5e1;
+        }
+        strong {
+            color: #ffffff;
+        }
         ul {
+            margin: 0 0 20px 0;
             padding-left: 20px;
         }
-
         li {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
+            color: #cbd5e1;
         }
-
-        strong {
-            color: #fff;
-        }
-
-        .email-btn {
+        .btn-support {
             display: inline-block;
-            background: var(--primary-accent);
-            color: #fff;
+            background-color: #0077b6;
+            color: #ffffff;
             text-decoration: none;
-            padding: 12px 28px;
-            border-radius: 50px;
-            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        .btn-support:hover {
+            background-color: #0096c7;
+        }
+        .alert-box {
+            background-color: #1c2541;
+            border: 1px solid #3a506b;
+            padding: 15px;
+            border-radius: 6px;
             margin-top: 15px;
-            transition: transform 0.2s, opacity 0.2s;
-        }
-
-        .email-btn:hover {
-            transform: translateY(-2px);
-            opacity: 0.9;
-        }
-
-        .alert-text {
-            color: #ff7b72;
-            font-weight: 600;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px 0 20px 0;
-            color: var(--text-dim);
-            font-size: 0.9rem;
-            border-top: 1px solid var(--border-color);
         }
     </style>
 </head>
@@ -129,33 +95,44 @@
     </header>
 
     <!-- Support Section -->
-    <div class="card">
+    <div>
         <h2>Customer Support &amp; Feedback</h2>
         <p>Have questions regarding your playbook configurations, simulation tools, or general application updates? Our support deck is standing by to assist with technical troubleshooting and app inquiries.</p>
         <p>Drop us a line directly at any time at <strong>bubblencraps@gmail.com</strong>, or click below:</p>
-        <a href="mailto:bubblencraps@gmail.com" class="email-btn">Contact Support</a>
+        <a href="mailto:bubblencraps@gmail.com" class="btn-support">Contact Support</a>
     </div>
 
-    <!-- Liability Disclaimer Section -->
-    <div class="card">
+    <!-- Limitation of Liability Section -->
+    <div>
         <h2>Strict Limitation of Liability &amp; Gambling Disclaimer</h2>
-        <p class="alert-text">PLEASE READ THIS SECTION CAREFULLY BEFORE USING THE APPLICATION.</p>
+        <p>PLEASE READ THIS SECTION CAREFULLY BEFORE USING THE APPLICATION.</p>
         <p><strong>1. For Entertainment and Educational Purposes Only:</strong> Bubble n Craps is strictly a mathematical strategy simulation and table layout utility intended for entertainment and educational use. This application does not facilitate, provide, accept, or encourage real-money gambling or wagering transactions of any kind.</p>
         <p><strong>2. No Guarantee of Financial Outcomes:</strong> Craps is an inherently random game of chance driven by probability. Any mathematical formulas, simulated playbooks, historical charts, or layouts generated by this application are purely theoretical and do not guarantee financial success, real-world winnings, or risk mitigation at physical or online casino venues.</p>
         <p><strong>3. Absolute Assumption of Risk:</strong> You explicitly acknowledge and agree that any subsequent decision to engage in real-money gambling activities is done entirely at your own financial and personal risk. Under no circumstances shall the application developers or distributors be held liable for any financial losses, capital damages, or personal distress resulting directly or indirectly from the use of this software.</p>
         <p><strong>4. "AS IS" Warranty Clause:</strong> This software is provided completely "As Is" without warranties of any kind, either express or implied. In no event shall our total collective liability to you for all damages, losses, and causes of action exceed the exact amount paid by you (if any) to purchase the application.</p>
+        <p><strong>5. Simulation Terminology:</strong> Any and all in-app or website references to "money," "bankroll," "chips," "wagers," "bets," "hits," or "winnings" refer strictly to theoretical, non-monetary mathematical units within the simulator layout. This software contains no real currency integration, and all structural vocabulary is utilized solely for probability modeling holding zero real-world meaning or monetary value.</p>
+    </div>
+
+    <!-- Legal Age & Responsible Play Section -->
+    <div>
+        <h2>Legal Age &amp; Responsible Play</h2>
+        <p><strong>Legal Age Requirement:</strong> This application is strictly intended for adults. You must be at least 18 or 21 years of age, subject to the specific laws, rules, and gaming regulations of your local jurisdiction.</p>
+        <p><strong>Responsible Play:</strong> Craps is a game of negative expectation. The house or casino ALWAYS maintains the mathematical edge overall. No strategy can eliminate or outsmart this advantage.</p>
+        <div class="alert-box">
+            <p style="margin-bottom: 0;"><strong>Need Help?</strong> Confidential support is available 24/7:<br><strong>US:</strong> 1-800-GAMBLER | <strong>UK:</strong> 0808 8020 133</p>
+        </div>
     </div>
 
     <!-- Privacy Policy Section -->
-    <div class="card">
+    <div>
         <h2>Privacy Policy</h2>
         <p><strong>Effective Date:</strong> July 12, 2026</p>
         <p>This privacy policy governs your use of the mobile application Bubble n Craps. We are committed to maintaining straightforward, absolute transparency regarding user data.</p>
         
         <h3>1. Data Collection and Usage</h3>
-        <p>Bubble n Craps is built from the ground up to operate completely offline. 
+        <p>Bubble n Craps is built from the ground up to operate completely offline.</p>
         <ul>
-            <li><strong>No Personal Information:</strong> We do not collect, capture, transmission, or store any personal data, identifiers, or account information.</li>
+            <li><strong>No Personal Information:</strong> We do not collect, capture, transmit, or store any personal data, identifiers, or account information.</li>
             <li><strong>No Tracking:</strong> The application does not deploy background tracking cookies, location-based services, or user-profiling infrastructure.</li>
             <li><strong>Local Storage Only:</strong> Any strategy playbooks, configuration preferences, or local save states you build are stored exclusively on your own physical device and are never transmitted to external servers.</li>
         </ul>
@@ -168,7 +145,7 @@
     </div>
 
     <!-- Terms of Service Section -->
-    <div class="card">
+    <div>
         <h2>Terms of Service</h2>
         <p><strong>Effective Date:</strong> July 12, 2026</p>
         <p>By downloading, installing, or interacting with Bubble n Craps, you agree to be bound unconditionally by the following operational terms:</p>
@@ -178,11 +155,13 @@
 
         <h3>2. Restrictions on Use</h3>
         <p>You agree that you will not: reverse engineer, decompile, or disassemble the application binaries; attempt to bypass built-in processing systems; or utilize the software simulation modules to develop unauthorized commercial systems or automated algorithmic platforms.</p>
-<h3>3. Fees, Purchases, and No Refunds</h3>
+
+        <h3>3. Fees, Purchases, and No Refunds</h3>
         <p><strong>All Sales Final:</strong> Any purchase of the application or digital content within the software is processed entirely through the respective mobile platform storefront (Apple App Store or Google Play Store). To the maximum extent permitted by applicable law, all transactions are completely final, and the developers offer no direct refunds, cash returns, or credits for any reason.</p>
 
         <h3>4. Termination</h3>
         <p>This license is effective until terminated by either party. Your rights under this license will terminate automatically or otherwise cease to be effective without notice if you fail to comply with any provision of these terms.</p>
+    </div>
 
 </div>
 
